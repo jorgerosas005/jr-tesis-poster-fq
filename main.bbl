@@ -18,42 +18,320 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
-    \entry{orca6.1}{manual}{}{}
-      \name{author}{1}{}{%
-        {{hash=fff80c744c5a0bff437149b6520d03a2}{%
-           family={{Neese}},
-           familyi={N\bibinitperiod},
-           given={Frank},
-           giveni={F\bibinitperiod}}}%
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Wa-2023-01}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e94d33595a5eec78b6b42e4c77ad1459}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Elizabeth\bibnamedelima G},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=f7cf9bd54dfacbf6cf7d6707a108d18d}{%
+           family={Steele},
+           familyi={S\bibinitperiod},
+           given={Ryan\bibnamedelima P},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Mülheim a. d. Ruhr, Germany}%
+      \list{publisher}{1}{%
+        {ACS Publications}%
       }
-      \list{organization}{1}{%
-        {Max-Planck-Institut für Kohlenforschung}%
-      }
-      \strng{namehash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{fullhash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{fullhashraw}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{bibnamehash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{authorbibnamehash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{authornamehash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{authorfullhash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{authorfullhashraw}{fff80c744c5a0bff437149b6520d03a2}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \strng{namehash}{924e723bf7645f888a2da7c740551aaa}
+      \strng{fullhash}{924e723bf7645f888a2da7c740551aaa}
+      \strng{fullhashraw}{924e723bf7645f888a2da7c740551aaa}
+      \strng{bibnamehash}{924e723bf7645f888a2da7c740551aaa}
+      \strng{authorbibnamehash}{924e723bf7645f888a2da7c740551aaa}
+      \strng{authornamehash}{924e723bf7645f888a2da7c740551aaa}
+      \strng{authorfullhash}{924e723bf7645f888a2da7c740551aaa}
+      \strng{authorfullhashraw}{924e723bf7645f888a2da7c740551aaa}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Manual and user documentation}
-      \field{title}{{ORCA} quantum chemistry program, version 6.1}
-      \field{year}{2025}
+      \field{journaltitle}{The Journal of Physical Chemistry A}
+      \field{number}{32}
+      \field{title}{Structural, Thermodynamic, and Spectroscopic Evolution in the Hydration of Copper (II) Ions, Cu2+ (H2O) 2- 8}
+      \field{volume}{127}
+      \field{year}{2023}
+      \field{pages}{6660\bibrangedash 6676}
+      \range{pages}{17}
+    \endentry
+    \entry{Wa-2024-03}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=109d9ffb8dbfb1c190cef5dcda0ba425}{%
+           family={Da-yang},
+           familyi={D\bibinithyphendelim y\bibinitperiod},
+           given={Tabouli\bibnamedelima Eric},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=e1504bc92d031056d8ae1414625e49bb}{%
+           family={Fifen},
+           familyi={F\bibinitperiod},
+           given={Jean\bibnamedelima Jules},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5e4b902ab3a9f0791e213af22b323014}{%
+           family={Dhaouadi},
+           familyi={D\bibinitperiod},
+           given={Zoubeida},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=68ca81858aa37c31a4dd92f9f183c848}{%
+           family={Nsangou},
+           familyi={N\bibinitperiod},
+           given={Mama},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0409e8b2b9edd67ab3128aec778b13a2}{%
+           family={Conradie},
+           familyi={C\bibinitperiod},
+           given={Jeanet},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{17ccabc4105674f4141514be7c14764d}
+      \strng{fullhash}{719e9a077216147d95fb17c32ae6a88f}
+      \strng{fullhashraw}{719e9a077216147d95fb17c32ae6a88f}
+      \strng{bibnamehash}{17ccabc4105674f4141514be7c14764d}
+      \strng{authorbibnamehash}{17ccabc4105674f4141514be7c14764d}
+      \strng{authornamehash}{17ccabc4105674f4141514be7c14764d}
+      \strng{authorfullhash}{719e9a077216147d95fb17c32ae6a88f}
+      \strng{authorfullhashraw}{719e9a077216147d95fb17c32ae6a88f}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The hydration-free energy of the Cu2+ cation stands as a crucial parameter for comprehending its reactivity with various molecules. However, the existing literature lacks a definitive consensus on this value. To solve this problem, we use the cluster continuum model to evaluate this parameter accurately, requiring the determination of the energy potential of Cu2+(H2O)n clusters at different temperatures. Our project initiates with an exploration of structures, relative stabilities, infrared spectroscopy, binding energies, and clustering energies of hydrated Copper dication clusters, utilizing the MP2 ab initio method. We propose a unique fit function capable of precisely deriving binding and clustering energies per solvent molecule for the solvated Cu2+ cation in water. Furthermore, we extend our findings to encompass ammonia as a solvent. The binding and clustering energies exhibit minimal changes showcasing remarkable consistency between water and ammonia as solvents. This saturation phenomenon allows us to understand the behavior of solvated ions.}
+      \field{issn}{2210-271X}
+      \field{journaltitle}{Computational and Theoretical Chemistry}
+      \field{title}{Structures, spectroscopy, binding and clustering energies of the hydrated copper dication clusters}
+      \field{volume}{1236}
+      \field{year}{2024}
+      \field{pages}{114609}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.comptc.2024.114609
+      \endverb
       \verb{urlraw}
-      \verb https://www.faccts.de/docs/orca/6.1/manual/
+      \verb https://www.sciencedirect.com/science/article/pii/S2210271X24001488
       \endverb
       \verb{url}
-      \verb https://www.faccts.de/docs/orca/6.1/manual/
+      \verb https://www.sciencedirect.com/science/article/pii/S2210271X24001488
       \endverb
+      \keyw{Binding energies,Clustering energies,Temperature effect,Hydrated copper dication,Coordination number,Spectroscopy,MP2}
+    \endentry
+    \entry{Cu-2014-02}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=cf811278c3892456345ab8b1feedfcfe}{%
+           family={Stelmashook},
+           familyi={S\bibinitperiod},
+           given={EV},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fe861bb8ef510e6796c7136509c9573b}{%
+           family={Isaev},
+           familyi={I\bibinitperiod},
+           given={NK},
+           giveni={N\bibinitperiod}}}%
+        {{hash=178651a2092b660bdd96e105aa92c8cf}{%
+           family={Genrikhs},
+           familyi={G\bibinitperiod},
+           given={EE},
+           giveni={E\bibinitperiod}}}%
+        {{hash=98883e8f27d2c8b8f514274670f6d00f}{%
+           family={Amelkina},
+           familyi={A\bibinitperiod},
+           given={GA},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dfceacce65e04e7b9d9f6904f63e301a}{%
+           family={Khaspekov},
+           familyi={K\bibinitperiod},
+           given={LG},
+           giveni={L\bibinitperiod}}}%
+        {{hash=cbeaa5a9b885d06e2c712b8483c40d1a}{%
+           family={Skrebitsky},
+           familyi={S\bibinitperiod},
+           given={VG},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a3fa744e7e7a429335ad479d8061ca59}{%
+           family={Illarioshkin},
+           familyi={I\bibinitperiod},
+           given={SN},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8cb08b1ab250db8086763304cb97d210}
+      \strng{fullhash}{1da2074aac7073b5cebb018c4ae7936b}
+      \strng{fullhashraw}{1da2074aac7073b5cebb018c4ae7936b}
+      \strng{bibnamehash}{8cb08b1ab250db8086763304cb97d210}
+      \strng{authorbibnamehash}{8cb08b1ab250db8086763304cb97d210}
+      \strng{authornamehash}{8cb08b1ab250db8086763304cb97d210}
+      \strng{authorfullhash}{1da2074aac7073b5cebb018c4ae7936b}
+      \strng{authorfullhashraw}{1da2074aac7073b5cebb018c4ae7936b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biochemistry (Moscow)}
+      \field{number}{5}
+      \field{title}{Role of zinc and copper ions in the pathogenetic mechanisms of Alzheimer’s and Parkinson’s diseases}
+      \field{volume}{79}
+      \field{year}{2014}
+      \field{pages}{391\bibrangedash 396}
+      \range{pages}{6}
+    \endentry
+    \entry{Cu-2019-01}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0409e8b2b9edd67ab3128aec778b13a2}{%
+           family={Conradie},
+           familyi={C\bibinitperiod},
+           given={Jeanet},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0409e8b2b9edd67ab3128aec778b13a2}
+      \strng{fullhash}{0409e8b2b9edd67ab3128aec778b13a2}
+      \strng{fullhashraw}{0409e8b2b9edd67ab3128aec778b13a2}
+      \strng{bibnamehash}{0409e8b2b9edd67ab3128aec778b13a2}
+      \strng{authorbibnamehash}{0409e8b2b9edd67ab3128aec778b13a2}
+      \strng{authornamehash}{0409e8b2b9edd67ab3128aec778b13a2}
+      \strng{authorfullhash}{0409e8b2b9edd67ab3128aec778b13a2}
+      \strng{authorfullhashraw}{0409e8b2b9edd67ab3128aec778b13a2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inorganica Chimica Acta}
+      \field{title}{Jahn-Teller effect in high spin d4 and d9 octahedral metal-complexes}
+      \field{volume}{486}
+      \field{year}{2019}
+      \field{pages}{193\bibrangedash 199}
+      \range{pages}{7}
+    \endentry
+    \entry{Me-2025-01}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=109d9ffb8dbfb1c190cef5dcda0ba425}{%
+           family={Da-yang},
+           familyi={D\bibinithyphendelim y\bibinitperiod},
+           given={Tabouli\bibnamedelima Eric},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=e1504bc92d031056d8ae1414625e49bb}{%
+           family={Fifen},
+           familyi={F\bibinitperiod},
+           given={Jean\bibnamedelima Jules},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0409e8b2b9edd67ab3128aec778b13a2}{%
+           family={Conradie},
+           familyi={C\bibinitperiod},
+           given={Jeanet},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{07884d1d872c755963f1c44b4c063a9b}
+      \strng{fullhash}{07884d1d872c755963f1c44b4c063a9b}
+      \strng{fullhashraw}{07884d1d872c755963f1c44b4c063a9b}
+      \strng{bibnamehash}{07884d1d872c755963f1c44b4c063a9b}
+      \strng{authorbibnamehash}{07884d1d872c755963f1c44b4c063a9b}
+      \strng{authornamehash}{07884d1d872c755963f1c44b4c063a9b}
+      \strng{authorfullhash}{07884d1d872c755963f1c44b4c063a9b}
+      \strng{authorfullhashraw}{07884d1d872c755963f1c44b4c063a9b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Physics}
+      \field{title}{Exploration of the potential energy surfaces of the Cu2+ (MeOH) n= 9, 10 clusters: Solvent phase vs gas phase}
+      \field{volume}{590}
+      \field{year}{2025}
+      \field{pages}{112536}
+      \range{pages}{1}
+    \endentry
+    \entry{orca}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=384e4df7c4bd5c10e3639412a9547202}{%
+           family={Neese},
+           familyi={N\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{384e4df7c4bd5c10e3639412a9547202}
+      \strng{fullhash}{384e4df7c4bd5c10e3639412a9547202}
+      \strng{fullhashraw}{384e4df7c4bd5c10e3639412a9547202}
+      \strng{bibnamehash}{384e4df7c4bd5c10e3639412a9547202}
+      \strng{authorbibnamehash}{384e4df7c4bd5c10e3639412a9547202}
+      \strng{authornamehash}{384e4df7c4bd5c10e3639412a9547202}
+      \strng{authorfullhash}{384e4df7c4bd5c10e3639412a9547202}
+      \strng{authorfullhashraw}{384e4df7c4bd5c10e3639412a9547202}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{WIRES Comput. Molec. Sci.}
+      \field{number}{1}
+      \field{title}{The ORCA program system}
+      \field{type}{journal Article}
+      \field{volume}{2}
+      \field{year}{2012}
+      \field{pages}{73\bibrangedash 78}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1002/wcms.81
+      \endverb
+    \endentry
+    \entry{Me-2022-01}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=109d9ffb8dbfb1c190cef5dcda0ba425}{%
+           family={Da-yang},
+           familyi={D\bibinithyphendelim y\bibinitperiod},
+           given={Tabouli\bibnamedelima Eric},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=e1504bc92d031056d8ae1414625e49bb}{%
+           family={Fifen},
+           familyi={F\bibinitperiod},
+           given={Jean\bibnamedelima Jules},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0409e8b2b9edd67ab3128aec778b13a2}{%
+           family={Conradie},
+           familyi={C\bibinitperiod},
+           given={Jeanet},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4fbdf3a45ce4530e7002618ca975303c}{%
+           family={Conradie},
+           familyi={C\bibinitperiod},
+           given={Marrigje\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{17ccabc4105674f4141514be7c14764d}
+      \strng{fullhash}{e64a525699079e268296fd35012d1717}
+      \strng{fullhashraw}{e64a525699079e268296fd35012d1717}
+      \strng{bibnamehash}{17ccabc4105674f4141514be7c14764d}
+      \strng{authorbibnamehash}{17ccabc4105674f4141514be7c14764d}
+      \strng{authornamehash}{17ccabc4105674f4141514be7c14764d}
+      \strng{authorfullhash}{e64a525699079e268296fd35012d1717}
+      \strng{authorfullhashraw}{e64a525699079e268296fd35012d1717}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Copper plays an important role in many physiological biochemical and biological processes. This work sets out to investigate structures, relative stabilities, temperature-dependence of the relative population, saturated binding and clustering energies of the solvated Cu2+ ion in methanol, using ab initio MP2 method associated with the 6-31++G** basis set. The isomers of the Cu2+(MeOH)n=1-8 clusters are reported here for the first time in the whole literature, and relative stability obeys a well-defined stability rule. It is worth mentioning that the solvated Cu2+ ion in methanol is tetra- or hexa-coordinated, depending on the temperature. The theoretical approach used in this work, combined with the structures pointed out and their corresponding relative populations leads to equatorial distances dCu2+-O in methanol, in excellent agreement with experimental results. As far as temperature dependence isomers distribution are concerned, compact and high coordinated structures dominate the population of the studied clusters at all temperatures. We also predicted binding and clustering energies as a function of the cluster size, up to n=∞. The convergence, called the saturation, happens around n=18 for clustering energies of Cu2+ ion in methanol. For the case as ammonia and water as solvent, this saturation is reached at n=20 and n=25, respectively. Thus, accurate solvation energies of Cu2+ ion in those media using cluster continuum model could be derived clustering at least up to n=18, 20 and 25 respectively for methanol, ammonia and water as solvent. The corresponding binding electronic energy, binding enthalpy and binding free energy per methanol molecule are respectively, −158.9, −166.2 and −134.6 kJ mol−1. As far as clustering energies per solvent molecule at the saturation are concerned, we reported −7.0, −6.5 and −2.9 kJ mol−1 for respectively the clustering electronic energy, clustering enthalpy and clustering free energy per methanol molecule of the solvated Cu2+ ion.}
+      \field{issn}{0167-7322}
+      \field{journaltitle}{Journal of Molecular Liquids}
+      \field{title}{Structures, temperature effect, binding and clustering energies of Cu2+(MeOH)n=1-8 clusters and extrapolations}
+      \field{volume}{360}
+      \field{year}{2022}
+      \field{pages}{119439}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.molliq.2022.119439
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167732222009771
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167732222009771
+      \endverb
+      \keyw{MP2,Temperature dependence,ion,Coordination number,Saturated binding energy,Saturated clustering energy}
     \endentry
     \entry{Me-2023-01}{article}{}{}
       \name{author}{4}{}{%
@@ -89,9 +367,9 @@
       \strng{authornamehash}{17ccabc4105674f4141514be7c14764d}
       \strng{authorfullhash}{4114af91e81871df001eece4c218b1d4}
       \strng{authorfullhashraw}{4114af91e81871df001eece4c218b1d4}
-      \field{extraname}{1}
-      \field{sortinit}{y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extraname}{3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polyhedron}
@@ -100,61 +378,6 @@
       \field{year}{2023}
       \field{pages}{116343}
       \range{pages}{1}
-    \endentry
-    \entry{Me-2022-01}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=109d9ffb8dbfb1c190cef5dcda0ba425}{%
-           family={Da-yang},
-           familyi={D\bibinithyphendelim y\bibinitperiod},
-           given={Tabouli\bibnamedelima Eric},
-           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=e1504bc92d031056d8ae1414625e49bb}{%
-           family={Fifen},
-           familyi={F\bibinitperiod},
-           given={Jean\bibnamedelima Jules},
-           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=0409e8b2b9edd67ab3128aec778b13a2}{%
-           family={Conradie},
-           familyi={C\bibinitperiod},
-           given={Jeanet},
-           giveni={J\bibinitperiod}}}%
-        {{hash=4fbdf3a45ce4530e7002618ca975303c}{%
-           family={Conradie},
-           familyi={C\bibinitperiod},
-           given={Marrigje\bibnamedelima M.},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{17ccabc4105674f4141514be7c14764d}
-      \strng{fullhash}{e64a525699079e268296fd35012d1717}
-      \strng{fullhashraw}{e64a525699079e268296fd35012d1717}
-      \strng{bibnamehash}{17ccabc4105674f4141514be7c14764d}
-      \strng{authorbibnamehash}{17ccabc4105674f4141514be7c14764d}
-      \strng{authornamehash}{17ccabc4105674f4141514be7c14764d}
-      \strng{authorfullhash}{e64a525699079e268296fd35012d1717}
-      \strng{authorfullhashraw}{e64a525699079e268296fd35012d1717}
-      \field{extraname}{2}
-      \field{sortinit}{y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Copper plays an important role in many physiological biochemical and biological processes. This work sets out to investigate structures, relative stabilities, temperature-dependence of the relative population, saturated binding and clustering energies of the solvated Cu2+ ion in methanol, using ab initio MP2 method associated with the 6-31++G** basis set. The isomers of the Cu2+(MeOH)n=1-8 clusters are reported here for the first time in the whole literature, and relative stability obeys a well-defined stability rule. It is worth mentioning that the solvated Cu2+ ion in methanol is tetra- or hexa-coordinated, depending on the temperature. The theoretical approach used in this work, combined with the structures pointed out and their corresponding relative populations leads to equatorial distances dCu2+-O in methanol, in excellent agreement with experimental results. As far as temperature dependence isomers distribution are concerned, compact and high coordinated structures dominate the population of the studied clusters at all temperatures. We also predicted binding and clustering energies as a function of the cluster size, up to n=∞. The convergence, called the saturation, happens around n=18 for clustering energies of Cu2+ ion in methanol. For the case as ammonia and water as solvent, this saturation is reached at n=20 and n=25, respectively. Thus, accurate solvation energies of Cu2+ ion in those media using cluster continuum model could be derived clustering at least up to n=18, 20 and 25 respectively for methanol, ammonia and water as solvent. The corresponding binding electronic energy, binding enthalpy and binding free energy per methanol molecule are respectively, −158.9, −166.2 and −134.6 kJ mol−1. As far as clustering energies per solvent molecule at the saturation are concerned, we reported −7.0, −6.5 and −2.9 kJ mol−1 for respectively the clustering electronic energy, clustering enthalpy and clustering free energy per methanol molecule of the solvated Cu2+ ion.}
-      \field{issn}{0167-7322}
-      \field{journaltitle}{Journal of Molecular Liquids}
-      \field{title}{Structures, temperature effect, binding and clustering energies of Cu2+(MeOH)n=1-8 clusters and extrapolations}
-      \field{volume}{360}
-      \field{year}{2022}
-      \field{pages}{119439}
-      \range{pages}{1}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.molliq.2022.119439
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0167732222009771
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0167732222009771
-      \endverb
-      \keyw{MP2,Temperature dependence,ion,Coordination number,Saturated binding energy,Saturated clustering energy}
     \endentry
   \enddatalist
 \endrefsection

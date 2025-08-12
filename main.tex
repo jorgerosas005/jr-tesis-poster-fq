@@ -23,9 +23,13 @@
 % =====================
 
 \usepackage{chemformula} % para fórmulas químicas
-\usepackage{mhchem}      % alternativa para ecuaciones químicas
-\usepackage[backend=biber,style=numeric]{biblatex}
+\usepackage[version=4]{mhchem}      % alternativa para ecuaciones químicas
+\usepackage[backend=biber,style=numeric, sorting=none, doi=false, url=false]{biblatex}
 \usepackage{float}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning}
+\usepackage{ragged2e} %Justificar texto en bloques
 
 % ====================
 % Lengths
@@ -46,17 +50,17 @@
 
 % LaTeX logo taken from https://commons.wikimedia.org/wiki/File:LaTeX_logo.svg
 % use this to include logos on the left and/or right side of the header:
-\logoright{\includegraphics[height=8cm]{logos/logo-right.png}}
-\logoleft{\includegraphics[height=8cm]{logos/logo-left.png}}
+\logoright{ \includegraphics[height=8cm]{logos/logo-right.png}}
+\logoleft{ \hspace*{2cm} \includegraphics[height=8cm]{logos/logo-left.png}}
 
 % ====================
 % Footer (optional)
 % ====================
 
 \footercontent{
-	ABC Conference 2025, Tokyo, Japan \hfill
+	Facultad de Química. UNAM \hfill
 	\insertdate \hfill
-	\href{mailto:myemail@exampl.com}{\texttt{myemail@example.com}}
+	\href{jorgerosas005@gmail.com}{\texttt{jorgerosas005@gmail.com}}
 }
 % (can be left out to remove footer)
 
@@ -87,22 +91,77 @@
 		\separatorcolumn
 
 		\begin{column}{\colwidth}
-			\begin{block}{Introducción}
-				El ion \ce{Cu^{2+}} desempeña un papel fundamental en reacciones de oxidación-reducción, transporte electrónico y formación de complejos metaloproteicos, procesos estrechamente ligados a funciones fisiológicas clave y a enfermedades neurodegenerativas como el Alzheimer y el Parkinson \cite{Me-2022-01}. Tiene aplicaciones en el diseño de fármacos, catálisis homogénea, sensorización iónica, y en el análisis molecular de sistemas biológicos \cite{Me-2023-01}. En este estudio, se analizaron los sistemas \ce{[Cu(H2O)_{40}]^{2+}} y \ce{[Cu(CH3OH)_{40}]^{2+}}, con el objetivo de hacer un análisis estructural y energético mediante simulaciones de dinámica molecular a 300 K durante 22.5 ps.
+			\begin{block}{I N T R O D U C C I Ó N}
+
+				\justifying
+
+				La solvatación del ion cobre (II) \ce{Cu^{2+}} es fundamental para una vasta gama de procesos químicos y biológicos, desde su papel crítico en las actividades enzimáticas, el transporte de oxígeno y la transferencia de electrones \cite{Wa-2023-01, Wa-2024-03} hasta su implicación en trastornos neurodegenerativos \cite{Cu-2014-02}. Una característica central que gobierna su química en fase de solución es la distorsión de Jahn-Teller, consecuencia directa de su configuración electrónica $d^9$ \cite{Cu-2019-01}, la cual imparte una considerable labilidad estructural y una dinámica compleja a su primera capa de solvatación.\\ Este fenómeno ha sido estudiado extensamente en disolución acuosa, generando un vasto cuerpo de conocimiento, aunque no exento de debate sobre la estructura y dinámica de su primera esfera de coordinación. Existe un consenso emergente que apunta a una coexistencia dinámica de especies con números de coordinación 5 y 6 \cite{Wa-2023-01}. Sin embargo, la información disponible para la solvatación de este ion en metanol es considerablemente más escasa y, en ocasiones, contradictoria, con estudios experimentales que reportan números de coordinación promedio que varían desde 4 hasta 6 \cite{Me-2025-01}. \\ Para abordar esta ambigüedad en la información de la literatura se realizó un estudio de Dinámica Molecular Ab initio (AIMD por sus siglas en inglés) basada en la Teoría de los Funcionales de la Densidad (DFT por sus siglas en inglés) utilizando M06-2X. Analizamos los complejos de coordinación \ce{[Cu(H2O)_{40}]^{2+}} y \ce{[Cu(CH3OH)_{40}]^{2+}} con objeto de contrastar nuestros resultados obtenidos con el resto de trabajos similares con agua y presentar por primera vez en la literatura un estudio riguroso de esta naturaleza para caracterizar la solvatación del \ce{Cu^{2+}} en metanol.
+
 
 			\end{block}
 
-			
 		\end{column}
 
 		\separatorcolumn
 
 		\begin{column}{\colwidth}
-			\begin{block}{Metodología}
-				Las simulaciones de dinámica molecular de Born-Oppenheimer se llevaron a cabo en el programa ORCA v6.1 \cite{orca6.1}, utilizando condiciones de ensamble NVT y control de temperatura mediante un termostato de Nosé-Hoover en cadena. Las velocidades iniciales se generaron conforme a la distribución de Maxwell-Boltzmann a 300 K.
 
-				ORCA integra el movimiento atómico empleando el algoritmo de Verlet de velocidad, y en cada paso temporal resuelve la ecuación de Schrödinger independiente del tiempo mediante el método de campo autoconsistente y teoría de los fucionales de la densidad (SCF-DFT por sus siglas en inglés), utilizando el funcional M06-2X y el nivel de teoría 6-31G$^\ast$. Este procedimiento permite obtener las fuerzas necesarias para la evolución del sistema conforme a las ecuaciones de movimiento de Newton.
-			\end{block}			
+			\begin{alertblock}{C L U S T E R S}
+
+				\begin{figure}[H]
+					\centering
+					% Fila superior: Complejos con Metanol
+					\begin{subfigure}[b]{0.27\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{logos/Cu-10CH4O.png}
+						\caption{\ce{[Cu(CH3OH)_{10}]^{2+}}}
+						\label{fig:cu-10ch4o}
+					\end{subfigure}%
+					\hfill
+					\begin{subfigure}[b]{0.27\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{logos/Cu-30CH4O.png}
+						\caption{\ce{[Cu(CH3OH)_{30}]^{2+}}}
+						\label{fig:cu-30ch4o}
+					\end{subfigure}%
+					\hfill
+					\begin{subfigure}[b]{0.27\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{logos/Cu-40CH4O.png}
+						\caption{\ce{[Cu(CH3OH)_{40}]^{2+}}}
+						\label{fig:cu-40ch4o}
+					\end{subfigure}
+					
+					\vspace{1em} % Espacio vertical entre las filas de imágenes
+					
+					% Fila inferior: Complejos con Agua
+					\begin{subfigure}[b]{0.27\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{logos/Cu-10H2O.png}
+						\caption{\ce{[Cu(H2O)_{10}]^{2+}}}
+						\label{fig:cu-10h2o}
+					\end{subfigure}%
+					\hfill
+					\begin{subfigure}[b]{0.27\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{logos/Cu-30H2O.png}
+						\caption{\ce{[Cu(H2O)_{30}]^{2+}}}
+						\label{fig:cu-30h2o}
+					\end{subfigure}%
+					\hfill
+					\begin{subfigure}[b]{0.27\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{logos/Cu-40H2O.png}
+						\caption{\ce{[Cu(H2O)_{40}]^{2+}}}
+						\label{fig:cu-40h2o}
+					\end{subfigure}
+					
+					\caption{Estructuras de solvatación óptimas para los sistemas \ce{[Cu(CH3OH)_{n}]^{2+}} (fila superior) y \ce{[Cu(H2O)_{n}]^{2+}} (fila inferior), con $n = 10,\ 30,\ 40$.}
+					\label{fig:estructuras_solvatacion}
+				\end{figure}				
+
+			\end{alertblock}
+
 		\end{column}
 		
 		\separatorcolumn
@@ -112,54 +171,92 @@
 	\begin{columns}[t]
 	
 		\begin{column}{2\colwidth+\sepwidth}
-			\begin{alertblock}{Introducción}
-
-				Las siguientes figuras son representativas:
-
+			\begin{exampleblock}{M E T O D O L O G Í A}{}
+				
 				\begin{figure}[H]
 					\centering
-					\begin{minipage}[b]{0.25\textwidth}
-						\centering
-						\includegraphics[width=\textwidth]{logos/Cu-10CH4O.png}
-					\end{minipage}%
-					\hfill
-					\begin{minipage}[b]{0.25\textwidth}
-						\centering
-						\includegraphics[width=\textwidth]{logos/Cu-30CH4O.png}
-					\end{minipage}
-					\hfill
-					\begin{minipage}[b]{0.25\textwidth}
-						\centering
-						\includegraphics[width=\textwidth]{logos/Cu-40CH4O.png}
-					\end{minipage}
+					\begin{tikzpicture}[font=\footnotesize\sffamily,
+						node distance = 8mm and 15mm, % Distancia vertical y horizontal
+						block/.style = {rectangle, draw, text centered, rounded corners,
+										minimum height=2.2cm, align=center},
+						diamond_dec/.style = {diamond, draw, text centered, aspect=2,
+											inner sep=1pt, text width=2.5cm},
+						line/.style = {-{Stealth[length=2.5mm]}}
+						]
 
-					\caption{Energías de enlace por molécula de solvente calculada para las estructuras de solvatación óptimas de \ce{[Cu(H2O)_{n}]^{2+}} (izquierda) y \ce{[Cu(CH3OH)_{n}]^{2+}} (derecha), con $n = 1,\ 2,\ \ldots,\ 10,\ 30,\ 40$, mediante cálculos de optimización con los niveles de teoría 6-31G$^\ast$, 6-31+G$^\ast$ y 6-31++G$^{\ast\ast}$. Se concluye que la base 6-31G$^\ast$ ofrece un buen equilibrio entre precisión y costo computacional. Gráficas pendientes}
-					\label{fig:bases}
-				\end{figure}	
+						% --- Fila Superior ---
+						\node[block] (cond) {\textbf{Inicialización}  \\ $R^{N}(t=0)$};
+						\node[block, right=of cond] (opt_structure) {\textbf{Optimizar estructura} \\ {\text{Minimizar energía}} \\ $R^{N}_{min}(0)$};
+						\node[block, right=of opt_structure](init_vel) {\textbf{Velocidades} \\ \textbf{iniciales} \\$V^{N}(t=0)$};
+						\node[block, right=of init_vel] (t_step) { \textbf{Bucle SCF} \\ $t^{(n)}$};
 
-				\begin{figure}[H]
-					\centering
-					\begin{minipage}[b]{0.25\textwidth}
-						\centering
-						\includegraphics[width=\textwidth]{logos/Cu-10H2O.png}
-					\end{minipage}%
-					\hfill
-					\begin{minipage}[b]{0.25\textwidth}
-						\centering
-						\includegraphics[width=\textwidth]{logos/Cu-30H2O.png}
-					\end{minipage}
-					\hfill
-					\begin{minipage}[b]{0.25\textwidth}
-						\centering
-						\includegraphics[width=\textwidth]{logos/Cu-40H2O.png}
-					\end{minipage}
 
-					\caption{Energías de enlace por molécula de solvente calculada para las estructuras de solvatación óptimas de \ce{[Cu(H2O)_{n}]^{2+}} (izquierda) y \ce{[Cu(CH3OH)_{n}]^{2+}} (derecha), con $n = 1,\ 2,\ \ldots,\ 10,\ 30,\ 40$, mediante cálculos de optimización con los niveles de teoría 6-31G$^\ast$, 6-31+G$^\ast$ y 6-31++G$^{\ast\ast}$. Se concluye que la base 6-31G$^\ast$ ofrece un buen equilibrio entre precisión y costo computacional. Gráficas pendientes}
-					\label{fig:bases}
+
+						% --- Fila Intermedia (Bucle SCF) ---
+						\node[block, right=3cm of t_step] (propose_rho){ \textbf{Proponer} \\$\rho^{(n)}(r)$};
+						\node[block, below=2.3cm of propose_rho] (build_h) {\textbf{Construir hamiltoniano} \\ $H^{(n)}_{KS} = -\frac{1}{2} \nabla^2 + V_{\text{ext}} + V_H^{(n)} + V_{xc}^{(n)}$};
+						\node[block, right=of build_h] (solve_ks) {\textbf{Resolver ecuaciones} \\ \textbf{de Kohn-Sham} \\ $H^{(n)}_{KS} \psi_i = \epsilon_i\psi_i$};
+						\node[block, right=of solve_ks] (calc_rho) {\textbf{Calcular nueva densidad} \\ $\rho^{(n+1)}(r) = \sum_{i=1}^{N_{occ}} |\psi_i(r)|^2$};
+						\node[diamond_dec, above=1.8cm of calc_rho, xshift=0cm] (scf_check) {  \textbf{¿Converge?}  };
+						\node[block, right=of scf_check, xshift=1cm] (forces) {\textbf{Calcular energía y fuerzas} \\ $E[\rho] = T_s[\rho] + V_H[\rho] + E_{xc}[\rho] + V_{ext}[\rho]$ \\ $F_I = -\nabla_{R_I} E[\rho]$};
+
+						% --- Fila Inferior (Bucle de Dinámica) ---
+						% ***** LÍNEA MODIFICADA AQUÍ *****
+						\node[block, below=5.5cm of forces] (vel_update) {\textbf{Actualizar velocidades} \\ \text{Yoshida 7 + Nosé-Hoover} \\  $V^{N}(t + \Delta t)$ , $T \approx 300\,\text{K}$ };
+						\node[block, left=11.5cm of vel_update] (pos_update) {\textbf{Actualizar posiciones} \\ \text{Yoshida 7} \\ $R^{N}( t + \Delta t)$};
+
+						% --- Inicio y Fin ---
+						\node[block, left=of cond] (start) {Inicio};
+						\node[diamond_dec, left=11.5cm of pos_update] (main_loop_check) {¿$t < 22.5\,\text{ps}$?};
+						\node[block, left=of main_loop_check] (analysis) {\textbf{Análisis}};
+						\node[block, left=of analysis] (end) {Fin};
+
+						% --- Conexiones con Flechas ---
+						% Flujo principal
+						\draw[line] (start) -- (cond);
+						\draw[line] (cond) -- (opt_structure);
+						\draw[line] (opt_structure) -- (init_vel);
+						\draw[line] (init_vel) -- (t_step);
+						\draw[line] (t_step) -- (propose_rho);
+
+						% Bucle SCF
+						\draw[line] (propose_rho) -- (build_h);
+						\draw[line] (build_h) -- (solve_ks);
+						\draw[line] (solve_ks) -- (calc_rho);
+						\draw[line] (calc_rho) -- (scf_check);
+						\draw[line] (scf_check) -- node[above] {Sí} (forces);
+						\draw[line] (scf_check.west) -- ++(-0.5,0) -| node[below, pos=0.25] {$\rho^{(n)}(r) = \rho^{(n+1)}(r)$}  node[above, pos=0.25] {No} (propose_rho.east);
+
+						% Bucle de Dinámica
+						\draw[line] (forces) -- (vel_update);
+						\draw[line] (vel_update) -- (pos_update);
+						\draw[line] (pos_update) -- (main_loop_check);
+
+						% Bucle principal y final
+						\draw[line] (main_loop_check.north) -| node[left, pos=0.8] {Si} (t_step.south);
+						\draw[line] (main_loop_check) -- node[below, pos=0.5] {No} (analysis);
+						\draw[line] (analysis) -- (end);
+
+						
+
+					\end{tikzpicture}
+					\caption{Diagrama general de cálculo.}
+					\label{fig:metodologia}
 				\end{figure}
 
+				Para la fase de inicialización de $R^{N}(t=0)$ se utilizó Packmol v2, se hicieron una serie de optimizaciones para estructuras desde$n = 1,\ 2,\ \ldots,\ 10,\ 30,\ 40$ para agua y metanol (ver figura 3) y determinar la elección de base 6-31G*. Los parámetros de la simulación fueron los siguientes:
 
-			\end{alertblock}
+				\begin{itemize}
+					\item Funcional intercambio y correlación M06-2X con 6-31G*
+					\item Las velocidades iniciales se calculan conforme a la distribución de Maxwell-Boltzmann a $T \approx 300\,\text{K}$
+					\item La duración de la DM fue 22.5 ps con $\Delta t = 0.5\,\text{fm}$ (45,000 ciclos de cálculo)
+					\item Ensamble NVT con termostato Nosé-Hoover en cadena (4) $T \approx 300\,\text{K}$ e integrador de orden superior Yoshida 7
+				\end{itemize}
+
+				Los cálculos de optimización y las dinámicas moleculares se realizaron en Orca v6.1 \cite{orca}.
+
+			\end{exampleblock}		
+
 		\end{column}
 
 	\end{columns}
@@ -170,7 +267,7 @@
 		
 		\begin{column}{\colwidth}
 			
-			\begin{block}{An example block containing some math}{}
+			\begin{block}{E N E R G Í A}{}
 
 				%%%
 				\begin{figure}[H]
@@ -185,13 +282,43 @@
 						\includegraphics[width=\textwidth]{logos/bases_metanol.png}
 					\end{minipage}
 
-					\caption{Energías de enlace por molécula de solvente calculada para las estructuras de solvatación óptimas de \ce{[Cu(H2O)_{n}]^{2+}} (izquierda) y \ce{[Cu(CH3OH)_{n}]^{2+}} (derecha), con $n = 1,\ 2,\ \ldots,\ 10,\ 30,\ 40$, mediante cálculos de optimización con los niveles de teoría 6-31G$^\ast$, 6-31+G$^\ast$ y 6-31++G$^{\ast\ast}$. Se concluye que la base 6-31G$^\ast$ ofrece un buen equilibrio entre precisión y costo computacional. Gráficas pendientes}
+					\caption{Energías de enlace por molécula de solvente calculada para las estructuras de solvatación óptimas de \ce{[Cu(H2O)_{n}]^{2+}} (izquierda) y \ce{[Cu(CH3OH)_{n}]^{2+}} (derecha), con $n = 1,\ 2,\ \ldots,\ 10,\ 30,\ 40$, mediante cálculos de optimización con los niveles de teoría 6-31G$^\ast$, 6-31+G$^\ast$ y 6-31++G$^{\ast\ast}$. Resultados obtenidos con MP2 \cite{Me-2022-01} y validación de M06-2X respecto a MP2 \cite{Me-2023-01}.}
 					\label{fig:bases}
 				\end{figure}
 				
 			\end{block}
 			
-			\begin{block}{An example block containing some math}{}
+			\begin{exampleblock}{C O N C L U S I O N E S}{}
+				Conclusiones preeliminares:
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\
+				. \\			
+				. \\
+				. \\
+
+
+			\end{exampleblock}		
+
+		\end{column}
+	
+		\separatorcolumn
+		
+		\begin{column}{\colwidth}
+		
+			\begin{block}{C A R A C T E R I Z A C I Ó N }{}
 				
 				\begin{figure}[H]
 					\centering
@@ -212,23 +339,8 @@
 					\end{minipage}
 				\end{figure}
 
-			\end{block}		
+			\end{block}	
 
-		\end{column}
-	
-		\separatorcolumn
-		
-		\begin{column}{\colwidth}
-
-			\begin{exampleblock}{Resultados y discusión}
-				Los resultados obtenidos muestran que la energía de enlace por molécula de solvente para \ce{[Cu(H2O)_{n}]^{2+}} y \ce{[Cu(CH3OH)_{n}]^{2+}} disminuye conforme aumenta el número de moléculas de solvente, lo que indica una mayor estabilidad del ion en medios polares. La función de distribución radial (RDF) y la función de distribución angular (ADF) revelan la estructura local del ion \ce{Cu^{2+}} en ambos solventes, mostrando una preferencia por ciertas distancias y ángulos entre las moléculas de agua y metanol.
-
-				Los resultados sugieren que el ion \ce{Cu^{2+}} forma complejos más estables en metanol que en agua, lo cual es consistente con estudios previos sobre la solvatación de iones metálicos en medios polares.
-
-				
-			\end{exampleblock}					
-
-			
 			\begin{block}{References}
 				\printbibliography[heading=none]
 			\end{block}
