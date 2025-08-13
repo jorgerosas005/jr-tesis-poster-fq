@@ -27,7 +27,7 @@
 \usepackage[backend=biber,style=numeric, sorting=none, doi=false, url=false]{biblatex}
 \usepackage{float}
 \usepackage{subcaption}
-\captionsetup{font=footnotesize} % You can use small, footnotesize, etc.
+%\captionsetup{font=footnotesize} % You can use small, footnotesize, etc.
 \usepackage{amsmath}
 \usetikzlibrary{shapes.geometric, arrows.meta, positioning}
 \usepackage{ragged2e} %Justificar texto en bloques
@@ -349,9 +349,21 @@
 
 			\end{block}	
 
-			\begin{block}{References}
+			\begin{block}{Bibliografía}
 				\printbibliography[heading=none]
 			\end{block}
+
+			\begin{thm}{Agradecimientos}{}
+				
+				Especiales agradecimientos a los siguientes programas por brindar los recursos y financiación:
+				\begin{itemize}
+					\item Proyecto de supercómputo \textbf{LANCAD-UNAM-DGTIC-435}.
+					\item Programa \textbf{UNAM-PAPIIT IA201724}.
+				\end{itemize}
+				
+				
+			\end{thm}
+
 		\end{column}
 		
 		\separatorcolumn
