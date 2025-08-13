@@ -17,7 +17,7 @@
 \usepackage{booktabs}
 \usepackage{tikz}
 \usepackage{pgfplots}
-
+\pgfplotsset{compat=1.18} % Este lo puse yo
 % =====================
 % Packages added by me
 % =====================
@@ -27,9 +27,16 @@
 \usepackage[backend=biber,style=numeric, sorting=none, doi=false, url=false]{biblatex}
 \usepackage{float}
 \usepackage{subcaption}
+\captionsetup{font=footnotesize} % You can use small, footnotesize, etc.
 \usepackage{amsmath}
 \usetikzlibrary{shapes.geometric, arrows.meta, positioning}
 \usepackage{ragged2e} %Justificar texto en bloques
+
+\AtEveryBibitem{%
+  \ifentrytype{article}{%
+    \clearfield{title}%
+  }{}%
+}
 
 % ====================
 % Lengths
@@ -76,11 +83,12 @@
 \addbibresource{referencias.bib}
 \renewcommand{\pgfuseimage}[1]{\includegraphics[scale=2.0]{#1}}
 
-\title{Estudio de la solvatación del ion \ce{Cu^{2+}} en medios polares mediante dinámica molecular con DFT/M06-2X}
+
+\title{Solvatación del ion \ce{Cu^{2+}} en medios polares mediante dinámica molecular ab initio con DFT/M06-2X}
 
 \author{Jorge Angel Rosas Martínez \inst{1} \and César Iván León Pimentel \inst{2}}
-\institute[shortinst]{\inst{1} Facultad de Química, UNAM }
 
+\institute[shortinst]{\inst{1} Facultad de Química, UNAM \inst{2} Depto. de Matemáticas, Facultad de Química, UNAM}
 \date{Agosto 2025}
 
 \begin{document}
@@ -95,7 +103,7 @@
 
 				\justifying
 
-				La solvatación del ion cobre (II) \ce{Cu^{2+}} es fundamental para una vasta gama de procesos químicos y biológicos, desde su papel crítico en las actividades enzimáticas, el transporte de oxígeno y la transferencia de electrones \cite{Wa-2023-01, Wa-2024-03} hasta su implicación en trastornos neurodegenerativos \cite{Cu-2014-02}. Una característica central que gobierna su química en fase de solución es la distorsión de Jahn-Teller, consecuencia directa de su configuración electrónica $d^9$ \cite{Cu-2019-01}, la cual imparte una considerable labilidad estructural y una dinámica compleja a su primera capa de solvatación.\\ Este fenómeno ha sido estudiado extensamente en disolución acuosa, generando un vasto cuerpo de conocimiento, aunque no exento de debate sobre la estructura y dinámica de su primera esfera de coordinación. Existe un consenso emergente que apunta a una coexistencia dinámica de especies con números de coordinación 5 y 6 \cite{Wa-2023-01}. Sin embargo, la información disponible para la solvatación de este ion en metanol es considerablemente más escasa y, en ocasiones, contradictoria, con estudios experimentales que reportan números de coordinación promedio que varían desde 4 hasta 6 \cite{Me-2025-01}. \\ Para abordar esta ambigüedad en la información de la literatura se realizó un estudio de Dinámica Molecular Ab initio (AIMD por sus siglas en inglés) basada en la Teoría de los Funcionales de la Densidad (DFT por sus siglas en inglés) utilizando M06-2X. Analizamos los complejos de coordinación \ce{[Cu(H2O)_{40}]^{2+}} y \ce{[Cu(CH3OH)_{40}]^{2+}} con objeto de contrastar nuestros resultados obtenidos con el resto de trabajos similares con agua y presentar por primera vez en la literatura un estudio riguroso de esta naturaleza para caracterizar la solvatación del \ce{Cu^{2+}} en metanol.
+				La solvatación del ion cobre (II) \ce{Cu^{2+}} es fundamental para una vasta gama de procesos químicos y biológicos, desde su papel crítico en las actividades enzimáticas, el transporte de oxígeno y la transferencia de electrones \cite{Wa-2023-01, Wa-2024-03} hasta su implicación en trastornos neurodegenerativos \cite{Cu-2014-02}. Una característica central que gobierna su química en fase de solución es la distorsión de Jahn-Teller, consecuencia directa de su configuración electrónica $d^9$ \cite{Cu-2019-01}, la cual imparte una considerable labilidad estructural y una dinámica compleja a su primera capa de solvatación.\\ Este fenómeno ha sido estudiado extensamente en disolución acuosa, generando un vasto cuerpo de conocimiento, aunque no exento de debate sobre la estructura y dinámica de su primera esfera de coordinación. Existe un consenso emergente que apunta a una coexistencia dinámica de especies con números de coordinación 5 y 6 \cite{Wa-2023-01}. Sin embargo, la información disponible para la solvatación de este ion en metanol es considerablemente más escasa y, en ocasiones, contradictoria, con estudios experimentales que reportan números de coordinación promedio que varían desde 4 hasta 6 \cite{Me-2025-01}. \\ Para abordar esta ambigüedad en la información de la literatura se realizó un estudio de Dinámica Molecular Ab initio basada en la Teoría de los Funcionales de la Densidad utilizando M06-2X. Realizamos simulaciones de nanogotas solvatadas de \ce{[Cu(H2O)_{40}]^{2+}} y \ce{[Cu(CH3OH)_{40}]^{2+}} con objeto de contrastar nuestros resultados obtenidos con el resto de trabajos similares con agua y presentar por primera vez en la literatura un estudio riguroso de esta naturaleza para caracterizar la solvatación del \ce{Cu^{2+}} en metanol.
 
 
 			\end{block}
@@ -197,17 +205,17 @@
 						\node[block, below=2.3cm of propose_rho] (build_h) {\textbf{Construir hamiltoniano} \\ $H^{(n)}_{KS} = -\frac{1}{2} \nabla^2 + V_{\text{ext}} + V_H^{(n)} + V_{xc}^{(n)}$};
 						\node[block, right=of build_h] (solve_ks) {\textbf{Resolver ecuaciones} \\ \textbf{de Kohn-Sham} \\ $H^{(n)}_{KS} \psi_i = \epsilon_i\psi_i$};
 						\node[block, right=of solve_ks] (calc_rho) {\textbf{Calcular nueva densidad} \\ $\rho^{(n+1)}(r) = \sum_{i=1}^{N_{occ}} |\psi_i(r)|^2$};
-						\node[diamond_dec, above=1.8cm of calc_rho, xshift=0cm] (scf_check) {  \textbf{¿Converge?}  };
+						\node[diamond_dec, above=1.8cm of calc_rho, xshift=0cm, minimum width=6cm, minimum height=2.5cm] (scf_check) {  \textbf{¿Converge?}  };
 						\node[block, right=of scf_check, xshift=1cm] (forces) {\textbf{Calcular energía y fuerzas} \\ $E[\rho] = T_s[\rho] + V_H[\rho] + E_{xc}[\rho] + V_{ext}[\rho]$ \\ $F_I = -\nabla_{R_I} E[\rho]$};
 
 						% --- Fila Inferior (Bucle de Dinámica) ---
 						% ***** LÍNEA MODIFICADA AQUÍ *****
-						\node[block, below=5.5cm of forces] (vel_update) {\textbf{Actualizar velocidades} \\ \text{Yoshida 7 + Nosé-Hoover} \\  $V^{N}(t + \Delta t)$ , $T \approx 300\,\text{K}$ };
-						\node[block, left=11.5cm of vel_update] (pos_update) {\textbf{Actualizar posiciones} \\ \text{Yoshida 7} \\ $R^{N}( t + \Delta t)$};
+						\node[block, below=5.5cm of forces] (vel_update) {\textbf{Actualizar velocidades} \\ \text{Integración + Nosé-Hoover} \\  $V^{N}(t + \Delta t)$ , $T \approx 300\,\text{K}$ };
+						\node[block, left=11.5cm of vel_update] (pos_update) {\textbf{Actualizar posiciones} \\ \text{Integración} \\ $R^{N}( t + \Delta t)$};
 
 						% --- Inicio y Fin ---
 						\node[block, left=of cond] (start) {Inicio};
-						\node[diamond_dec, left=11.5cm of pos_update] (main_loop_check) {¿$t < 22.5\,\text{ps}$?};
+						\node[diamond_dec, left=11.5cm of pos_update] (main_loop_check) {¿$t < 20\,\text{ps}$?};
 						\node[block, left=of main_loop_check] (analysis) {\textbf{Análisis}};
 						\node[block, left=of analysis] (end) {Fin};
 
@@ -249,7 +257,7 @@
 				\begin{itemize}
 					\item Funcional intercambio y correlación M06-2X con 6-31G*
 					\item Las velocidades iniciales se calculan conforme a la distribución de Maxwell-Boltzmann a $T \approx 300\,\text{K}$
-					\item La duración de la DM fue 22.5 ps con $\Delta t = 0.5\,\text{fm}$ (45,000 ciclos de cálculo)
+					\item La duración de la DM fue 22.5 ps (termalización 2.5 ps) con $\Delta t = 0.5\,\text{fm}$ (45,000 ciclos de cálculo en total)
 					\item Ensamble NVT con termostato Nosé-Hoover en cadena (4) $T \approx 300\,\text{K}$ e integrador de orden superior Yoshida 7
 				\end{itemize}
 

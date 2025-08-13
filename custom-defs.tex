@@ -2,16 +2,17 @@
 % BibLaTeX
 % ====================
 
-\usepackage[backend=biber,
-	bibstyle=authoryear,
-	citestyle=authoryear,
-	style=authoryear,
-	maxcitenames=2,
-	maxbibnames=20, % limit the length of list of names (authors/editors/etc.)
-	sorting=ydnt, % sort references by year (descending), name, title
-	dashed=false, % show authors instead of dash in publications having the same authors
-	giveninits=true % render authors' given name initials and not the full given names
-]{biblatex}
+%\usepackage[backend=biber,
+%	bibstyle=authoryear,
+%	citestyle=authoryear,
+%	style=numeric,
+%	maxcitenames=2,
+%	maxbibnames=20, % limit the length of list of names (authors/editors/etc.)
+%	sorting=none, % sort references by year (descending), name, title
+%	dashed=false, % show authors instead of dash in publications having the same authors
+%	giveninits=true % render authors' given name initials and not the full given names
+%	oi=false, url=false
+%]{biblatex}
 %% Biblatex with Beamer bibliography icons
 \setbeamertemplate{bibliography item}{%
 	\ifboolexpr{ test {\ifentrytype{book}} or test {\ifentrytype{mvbook}}
