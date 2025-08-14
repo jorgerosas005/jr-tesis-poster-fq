@@ -4,7 +4,7 @@
 %% Font sizes can be changed using the scale option.
 \usepackage[size=a0,orientation=portrait,scale=1.1]{beamerposter}
 
-\usetheme{gemini}
+\usetheme{gemini-modificado}
 \usecolortheme{smu}
 \useinnertheme{rectangles}
 
@@ -57,17 +57,28 @@
 
 % LaTeX logo taken from https://commons.wikimedia.org/wiki/File:LaTeX_logo.svg
 % use this to include logos on the left and/or right side of the header:
-\logoright{ \includegraphics[height=8cm]{logos/logo-right.png}}
-\logoleft{ \hspace*{2cm} \includegraphics[height=8cm]{logos/logo-left.png}}
+\logoright{ \includegraphics[height=7.5cm]{logos/Ciencias-Químicas_color.png}}
+\logoleft{  \includegraphics[height=11cm]{logos/logo-fq-negro.jpg}}
 
 % ====================
 % Footer (optional)
 % ====================
 
 \footercontent{
-	Facultad de Química. UNAM \hfill
-	\insertdate \hfill
-	\href{jorgerosas005@gmail.com}{\texttt{jorgerosas005@gmail.com}}
+    %\hfill % Mantenemos esto para empujar todo el bloque a la derecha
+    \begin{minipage}[t]{0.9\textwidth} % Hacemos la caja un poco más ancha para las 3 columnas
+        \usebeamerfont{footline}
+		\raggedleft
+        
+        % Tabla con 3 columnas, separadas por una línea vertical
+        \begin{tabular}{l | l |l}
+            % Fila 1
+            \bfseries C O N T A C T O & % Columna 1
+            \texttt{jorgerosas005@gmail.com} & % Columna 2
+            \texttt{cesar.leon@quimica.unam.mx} \\[0.5ex] % Columna 3
+            
+        \end{tabular}
+    \end{minipage}
 }
 % (can be left out to remove footer)
 
@@ -83,7 +94,6 @@
 \addbibresource{referencias.bib}
 \renewcommand{\pgfuseimage}[1]{\includegraphics[scale=2.0]{#1}}
 
-
 \title{Solvatación del ion \ce{Cu^{2+}} en medios polares mediante dinámica molecular ab initio con DFT/M06-2X}
 
 \author{Jorge Angel Rosas Martínez \inst{1} \and César Iván León Pimentel \inst{2}}
@@ -94,6 +104,7 @@
 \begin{document}
 	
 \begin{frame}[t]
+
 	
 	\begin{columns}[t]
 		\separatorcolumn
@@ -252,16 +263,16 @@
 					\label{fig:metodologia}
 				\end{figure}
 
-				Para la fase de inicialización de $R^{N}(t=0)$ se utilizó Packmol v2, se hicieron una serie de optimizaciones para estructuras desde$n = 1,\ 2,\ \ldots,\ 10,\ 30,\ 40$ para agua y metanol (ver figura 3) y determinar la elección de base 6-31G*. Los parámetros de la simulación fueron los siguientes:
+				%Para la fase de inicialización de $R^{N}(t=0)$ se utilizó Packmol v2, se hicieron una serie de optimizaciones para estructuras desde$n = 1,\ 2,\ \ldots,\ 10,\ 30,\ 40$ para agua y metanol (ver figura 3) y determinar la elección de base 6-31G*. Los parámetros de la simulación fueron los siguientes:
 
-				\begin{itemize}
-					\item Funcional intercambio y correlación M06-2X con 6-31G*
-					\item Las velocidades iniciales se calculan conforme a la distribución de Maxwell-Boltzmann a $T \approx 300\,\text{K}$
-					\item La duración de la DM fue 22.5 ps (termalización 2.5 ps) con $\Delta t = 0.5\,\text{fm}$ (45,000 ciclos de cálculo en total)
-					\item Ensamble NVT con termostato Nosé-Hoover en cadena (4) $T \approx 300\,\text{K}$ e integrador de orden superior Yoshida 7
-				\end{itemize}
+				%\begin{itemize}
+					%\item Funcional intercambio y correlación M06-2X con 6-31G*
+					%\item Las velocidades iniciales se calculan conforme a la distribución de Maxwell-Boltzmann a $T \approx 300\,\text{K}$
+					%\item La duración de la DM fue 22.5 ps (termalización 2.5 ps) con $\Delta t = 0.5\,\text{fm}$ (45,000 ciclos de cálculo en total)
+					%\item Ensamble NVT con termostato Nosé-Hoover en cadena (4) $T \approx 300\,\text{K}$ e integrador de orden superior Yoshida 7
+				%\end{itemize}
 
-				Los cálculos de optimización y las dinámicas moleculares se realizaron en Orca v6.1 \cite{orca}.
+				%Los cálculos de optimización y las dinámicas moleculares se realizaron en Orca v6.1 \cite{orca}.
 
 			\end{exampleblock}		
 
@@ -360,8 +371,7 @@
 					\item Proyecto de supercómputo \textbf{LANCAD-UNAM-DGTIC-435}.
 					\item Programa \textbf{UNAM-PAPIIT IA201724}.
 				\end{itemize}
-				
-				
+								
 			\end{thm}
 
 		\end{column}
