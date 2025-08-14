@@ -259,7 +259,7 @@
 						
 
 					\end{tikzpicture}
-					\caption{Diagrama general de cálculo.}
+					\caption{Diagrama general de cálculo. Los dos principales bucles son los referentes a el método de campo autoconsistente (SCF) y al principal de la dinámica molecular. El éxito de la DFT radica en la elección del funcional de inercambio y correlación para construir el hamiltoniano.}
 					\label{fig:metodologia}
 				\end{figure}
 
@@ -308,25 +308,17 @@
 			\end{block}
 			
 			\begin{exampleblock}{C O N C L U S I O N E S}{}
-				Conclusiones preeliminares:
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\
-				. \\			
-				. \\
-				. \\
+				\justifying
+				
+				\begin{itemize}
+				\justifying
+
+					\item Estudios teóricos como la BOMD permiten estudiar fenómenos de solvatación con gran precisión y detalle atómico, logrando simular fenómenos complejos como la deslocalización electrónica, transferencia de carga e intercambio de ligandos.
+					\item El funcional M06-2X ha demostrado describir con fidelidad la solvatación de metales de transición como el \ce{Cu^{2+}} en medios polares. Su capacidad para reproducir resultados experimentales y de métodos ab initio de alto nivel (como MP2) con un costo computacional más eficiente lo convierte en una alternativa valiosa.
+					\item Se concluye que la primera esfera de coordinación del \ce{Cu^{2+}} es dinámica y fluctua entre 4 y 5 en ambos casos.
+					\item La RDF sugiere una distancia de enlace más probable de $r = 2.19 \text{ Å}$ para el caso del metanol y $r = 2.18 \text{ Å}$ para el caso del agua. Estos valores son muy similares, denotando que, en el caso del agua, la configuración es más compacta.
+					\item A partir de las ADF, se observa que los ángulos más probables de ambos complejos se encuentran cercanos a 90°, una característica de su ya documentada geometría octaédrica distorsionada. Sin embargo, el número de coordinación encontrado sugiere que el \ce{Cu^{2+}} es más afín a dicha estructura, pero de manera incompleta, resultando en geometrías como la piramidal cuadrada o incluso la primamidal triangular.
+				\end{itemize}
 
 
 			\end{exampleblock}		
@@ -345,7 +337,7 @@
 					\begin{minipage}[c]{0.49\textwidth} % Adjust width as needed, ensure total < 1.0\textwidth
 						\centering
 						\includegraphics[width=\textwidth]{logos/RDF-OUTPUT-HISTOGRAMA.png}
-						\caption{Función de distribución radial para el ion \ce{Cu^{2+}} en metanol (\ce{CH_{4}O}) y agua (\ce{H_{2}O}).}
+						\caption{Función de distribución radial (RDF) en la gráfica principal y número de coordinación en la gráfica secundaria}
 						\label{fig:rdfcu40ch4o}
 					\end{minipage}% <--- Important: No space here!
 					\hfill % Adds flexible space between minipages, or remove if you want them tight
@@ -353,7 +345,7 @@
 					\begin{minipage}[c]{0.49\textwidth} % Adjust width as needed
 						\centering
 						\includegraphics[width=\textwidth]{logos/ADF-OUTPUT-HISTOGRAMA.png}
-						\caption{Función de distribución angular con $r = 2.9$ para el ion \ce{Cu^{2+}} en metanol (\ce{CH_{4}O}) y agua (\ce{H_{2}O}).}
+						\caption{Función de distribución angular (ADF) .}
 						\label{fig:adfcu40ch4o}
 					\end{minipage}
 				\end{figure}

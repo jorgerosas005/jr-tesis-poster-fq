@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  14 AUG 2025 02:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  14 AUG 2025 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1455,211 +1455,215 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19.705> not available
 
 File: logos/logo-fq-negro.jpg Graphic file (type jpg)
 <use logos/logo-fq-negro.jpg>
-Package pdftex.def Info: logos/logo-fq-negro.jpg  used on input line 381.
+Package pdftex.def Info: logos/logo-fq-negro.jpg  used on input line 373.
 (pdftex.def)             Requested size: 312.99352pt x 312.9803pt.
 File: logos/Ciencias-Químicas_color.png Graphic file (type png)
 <use logos/Ciencias-Químicas_color.png>
-Package pdftex.def Info: logos/Ciencias-Químicas_color.png  used on input line 381.
+Package pdftex.def Info: logos/Ciencias-Químicas_color.png  used on input line 373.
 (pdftex.def)             Requested size: 621.21864pt x 213.39566pt.
 <logos/Cu-10CH4O.png, id=57, 651.93562pt x 489.32813pt>
 File: logos/Cu-10CH4O.png Graphic file (type png)
 <use logos/Cu-10CH4O.png>
-Package pdftex.def Info: logos/Cu-10CH4O.png  used on input line 381.
+Package pdftex.def Info: logos/Cu-10CH4O.png  used on input line 373.
 (pdftex.def)             Requested size: 290.73717pt x 218.22444pt.
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
-LaTeX Font Info:    Calculating math sizes for size <22.81> on input line 381.
+LaTeX Font Info:    Calculating math sizes for size <22.81> on input line 373.
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <22.81> not available
-(Font)              size <20.74> substituted on input line 381.
+(Font)              size <20.74> substituted on input line 373.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.96692> not available
-(Font)              size <17.28> substituted on input line 381.
+(Font)              size <17.28> substituted on input line 373.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <11.405> not available
-(Font)              size <10.95> substituted on input line 381.
+(Font)              size <10.95> substituted on input line 373.
 
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 <logos/Cu-30CH4O.png, id=58, 707.64375pt x 530.98375pt>
 File: logos/Cu-30CH4O.png Graphic file (type png)
 <use logos/Cu-30CH4O.png>
-Package pdftex.def Info: logos/Cu-30CH4O.png  used on input line 381.
+Package pdftex.def Info: logos/Cu-30CH4O.png  used on input line 373.
 (pdftex.def)             Requested size: 290.73717pt x 218.15846pt.
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 <logos/Cu-40CH4O.png, id=59, 642.90187pt x 482.30188pt>
 File: logos/Cu-40CH4O.png Graphic file (type png)
 <use logos/Cu-40CH4O.png>
-Package pdftex.def Info: logos/Cu-40CH4O.png  used on input line 381.
+Package pdftex.def Info: logos/Cu-40CH4O.png  used on input line 373.
 (pdftex.def)             Requested size: 290.73717pt x 218.11566pt.
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 <logos/Cu-10H2O.png, id=60, 537.50812pt x 403.00563pt>
 File: logos/Cu-10H2O.png Graphic file (type png)
 <use logos/Cu-10H2O.png>
-Package pdftex.def Info: logos/Cu-10H2O.png  used on input line 381.
+Package pdftex.def Info: logos/Cu-10H2O.png  used on input line 373.
 (pdftex.def)             Requested size: 290.73717pt x 217.9826pt.
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 <logos/Cu-30H2O.png, id=61, 634.87187pt x 476.27937pt>
 File: logos/Cu-30H2O.png Graphic file (type png)
 <use logos/Cu-30H2O.png>
-Package pdftex.def Info: logos/Cu-30H2O.png  used on input line 381.
+Package pdftex.def Info: logos/Cu-30H2O.png  used on input line 373.
 (pdftex.def)             Requested size: 290.73717pt x 218.11732pt.
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 <logos/Cu-40H2O.png, id=62, 569.62813pt x 427.09563pt>
 File: logos/Cu-40H2O.png Graphic file (type png)
 <use logos/Cu-40H2O.png>
-Package pdftex.def Info: logos/Cu-40H2O.png  used on input line 381.
+Package pdftex.def Info: logos/Cu-40H2O.png  used on input line 373.
 (pdftex.def)             Requested size: 290.73717pt x 217.98532pt.
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: Cannot determine current font size.
-(caption)                Try setting it with `size=' explicitly on input line 381.
+(caption)                Try setting it with `size=' explicitly on input line 373.
 See the caption package documentation for explanation.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <22.81> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 381.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 373.
 
-LaTeX Font Info:    Calculating math sizes for size <19.01> on input line 381.
+LaTeX Font Info:    Calculating math sizes for size <19.01> on input line 373.
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19.01> not available
-(Font)              size <17.28> substituted on input line 381.
+(Font)              size <17.28> substituted on input line 373.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.30693> not available
-(Font)              size <14.4> substituted on input line 381.
+(Font)              size <14.4> substituted on input line 373.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <9.50499> not available
-(Font)              size <10> substituted on input line 381.
+(Font)              size <10> substituted on input line 373.
 
 
-Overfull \hbox (29.56879pt too wide) in paragraph at lines 381--381
+Overfull \hbox (29.56879pt too wide) in paragraph at lines 373--373
  [][]\OT1/cmss/bx/n/19.01 ?`Converge? 
  []
 
 <logos/bases_agua.png, id=63, 567.5604pt x 422.2977pt>
 File: logos/bases_agua.png Graphic file (type png)
 <use logos/bases_agua.png>
-Package pdftex.def Info: logos/bases_agua.png  used on input line 381.
+Package pdftex.def Info: logos/bases_agua.png  used on input line 373.
 (pdftex.def)             Requested size: 516.8533pt x 384.60724pt.
 <logos/bases_metanol.png, id=64, 567.5604pt x 422.2977pt>
 File: logos/bases_metanol.png Graphic file (type png)
 <use logos/bases_metanol.png>
-Package pdftex.def Info: logos/bases_metanol.png  used on input line 381.
+Package pdftex.def Info: logos/bases_metanol.png  used on input line 373.
 (pdftex.def)             Requested size: 516.8533pt x 384.60724pt.
-<logos/RDF-OUTPUT-HISTOGRAMA.png, id=69, 568.0422pt x 351.4731pt>
+
+LaTeX Font Warning: Font shape `TS1/cmss/m/n' in size <27.37> not available
+(Font)              size <24.88> substituted on input line 373.
+
+<logos/RDF-OUTPUT-HISTOGRAMA.png, id=69, 568.7649pt x 352.6776pt>
 File: logos/RDF-OUTPUT-HISTOGRAMA.png Graphic file (type png)
 <use logos/RDF-OUTPUT-HISTOGRAMA.png>
-Package pdftex.def Info: logos/RDF-OUTPUT-HISTOGRAMA.png  used on input line 381.
-(pdftex.def)             Requested size: 527.63168pt x 326.4912pt.
+Package pdftex.def Info: logos/RDF-OUTPUT-HISTOGRAMA.png  used on input line 373.
+(pdftex.def)             Requested size: 527.63168pt x 327.17955pt.
 <logos/ADF-OUTPUT-HISTOGRAMA.png, id=70, 569.4876pt x 354.3639pt>
 File: logos/ADF-OUTPUT-HISTOGRAMA.png Graphic file (type png)
 <use logos/ADF-OUTPUT-HISTOGRAMA.png>
-Package pdftex.def Info: logos/ADF-OUTPUT-HISTOGRAMA.png  used on input line 381.
+Package pdftex.def Info: logos/ADF-OUTPUT-HISTOGRAMA.png  used on input line 373.
 (pdftex.def)             Requested size: 527.63168pt x 328.34381pt.
 <beamericonarticle.pdf, id=71, 11.00009pt x 14.0003pt>
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 381.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 373.
 (pdftex.def)             Requested size: 22.00009pt x 28.00049pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 381.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 373.
 (pdftex.def)             Requested size: 22.00009pt x 28.00049pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <27.37> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 381.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 373.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 381.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 373.
 (pdftex.def)             Requested size: 22.00009pt x 28.00049pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <27.37> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 381.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 373.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 381.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 373.
 (pdftex.def)             Requested size: 22.00009pt x 28.00049pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 381.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 373.
 (pdftex.def)             Requested size: 22.00009pt x 28.00049pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 381.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 373.
 (pdftex.def)             Requested size: 22.00009pt x 28.00049pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 381.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 373.
 (pdftex.def)             Requested size: 22.00009pt x 28.00049pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 381.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 373.
 (pdftex.def)             Requested size: 22.00009pt x 28.00049pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 381.
+(Font)              using `OT1/cmss/bx/n' instead on input line 373.
 
 
 
 File: logos/logo-fq-negro.jpg Graphic file (type jpg)
 <use logos/logo-fq-negro.jpg>
-Package pdftex.def Info: logos/logo-fq-negro.jpg  used on input line 381.
+Package pdftex.def Info: logos/logo-fq-negro.jpg  used on input line 373.
 (pdftex.def)             Requested size: 312.99352pt x 312.9803pt.
 File: logos/Ciencias-Químicas_color.png Graphic file (type png)
 <use logos/Ciencias-Químicas_color.png>
-Package pdftex.def Info: logos/Ciencias-Químicas_color.png  used on input line 381.
+Package pdftex.def Info: logos/Ciencias-Químicas_color.png  used on input line 373.
 (pdftex.def)             Requested size: 621.21864pt x 213.39566pt.
 [1{C:/Users/jorge/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1693,17 +1697,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54761 strings out of 473523
- 1291679 string characters out of 5714631
- 2358576 words of memory out of 5000000
- 77050 multiletter control sequences out of 15000+600000
- 593309 words of font info for 163 fonts, out of 8000000 for 9000
+ 54765 strings out of 473523
+ 1291737 string characters out of 5714631
+ 2363772 words of memory out of 5000000
+ 77053 multiletter control sequences out of 15000+600000
+ 593653 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,25n,131p,2202b,2434s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi17.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (1 page, 1927224 bytes).
+ <C:\Users\jorge\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss2488.pk><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi17.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jorge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (1 page, 1956753 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
+ 198 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
  252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
